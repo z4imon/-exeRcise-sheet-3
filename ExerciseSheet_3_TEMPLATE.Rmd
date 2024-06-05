@@ -62,3 +62,11 @@ year2023$year <- 2023
 
 ```
 
+### e)
+```{r}
+
+library(dplyr)
+
+combined <- bind_rows(year2022, year2023)
+
+```
