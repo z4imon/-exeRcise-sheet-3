@@ -44,4 +44,12 @@ year2023$Anzahl <- as.numeric(year2023$Anzahl)
 ```
 Converted the column "Anzahl" to numeric, some values have been changed from "4 oder weniger" to "4" to be able to convert the value to a numeric data type.
 
+### c)
+```{r}
 
+babysBorn2022 <- sum(year2022$Anzahl)
+babysBorn2023 <- sum(year2023$Anzahl)
+
+```
+
+In the year of 2022 more babys were born in the year 2023.
