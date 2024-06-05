@@ -10,6 +10,7 @@ output: distill::distill_article
 ### d)
 
 Strengths and weaknesses of git:
+
 Strengths: 
 Using git it is very hard to lose files. Git allows you to go back in the commits and allows you to understand changes that were made
 
