@@ -70,3 +70,19 @@ library(dplyr)
 combined <- bind_rows(year2022, year2023)
 
 ```
+
+
+### f)
+```{r}
+
+library()
+
+combinedNames <- combined %>% 
+  group_by(Vorname) %>% 
+  summarise(Anzahl = sum(Anzahl)) %>% 
+  arrange(desc(Anzahl)) %>% 
+  head(10)
+
+knitr::kable(combinedNames, caption = "The most popular child names in 2022 and 2023")
+
+```
