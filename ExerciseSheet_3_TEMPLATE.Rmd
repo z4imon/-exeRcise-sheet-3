@@ -53,3 +53,12 @@ babysBorn2023 <- sum(year2023$Anzahl)
 ```
 
 In the year of 2022 more babys were born in the year 2023.
+
+### d)
+```{r}
+
+year2022$year <- 2022
+year2023$year <- 2023
+
+```
+
