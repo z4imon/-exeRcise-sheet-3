@@ -17,3 +17,7 @@ Using git it is very hard to lose files. Git allows you to go back in the commit
 Weaknesses: 
 Git can be very complicated for beginners. Saving the history of the files takes up space on the computer.
 
+## Aufgabe 2
+### a)
+
+https://github.com/z4imon/-exeRcise-sheet-3.git
