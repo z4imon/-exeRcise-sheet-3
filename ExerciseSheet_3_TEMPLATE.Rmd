@@ -21,3 +21,27 @@ Git can be very complicated for beginners. Saving the history of the files takes
 ### a)
 
 https://github.com/z4imon/exeRcise-sheet-3.git
+
+## Exercise 3
+### b)
+
+```{r}
+
+library(readr)
+
+year2022 <- read_csv("data/open_data_portal_2022.csv")
+year2023 <- read_csv("data/vornamen-muenchen-2023.csv")
+
+typeAnzahl2022 <- class("year2022.Anzahl")
+typeAnzahl2023 <- class("year2023.Anzahl")
+
+year2022$Anzahl <- gsub("4 oder weniger", "4", year2022$Anzahl)
+year2023$Anzahl <- gsub("4 oder weniger", "4", year2023$Anzahl)
+
+year2022$Anzahl <- as.numeric(year2022$Anzahl)
+year2023$Anzahl <- as.numeric(year2023$Anzahl)
+
+```
+Converted the column "Anzahl" to numeric, some values have been changed from "4 oder weniger" to "4" to be able to convert the value to a numeric data type.
+
+
