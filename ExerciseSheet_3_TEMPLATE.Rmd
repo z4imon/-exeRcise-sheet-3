@@ -1,0 +1,18 @@
+---
+title: "Exercise 3"
+subtitle: "Fortgeschrittene Statistische Software für NF"
+author: "Simon Gerloff (12565643)"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+## Aufgabe 1
+### d)
+
+Strengths and weaknesses of git:
+Strengths: 
+Using git it is very hard to lose files. Git allows you to go back in the commits and allows you to understand changes that were made
+
+Weaknesses: 
+Git can be very complicated for beginners. Saving the history of the files takes up space on the computer.
+
