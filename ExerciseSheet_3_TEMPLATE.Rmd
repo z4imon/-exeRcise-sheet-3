@@ -113,4 +113,23 @@ declinePerYear <- (childMortality1800 - childMortality2017) / (2017 - 1800)
 
 The child mortality declines by 0.181520737327189 per year.
 
+### f)
+```{r}
 
+library(tidyverse)
+
+ggplot(childMortality) +
+  aes(
+    x = Year,
+    y = `Share dying in first 5 years (based on Gapminder and World Bank (2019))`
+  ) +
+  geom_line(size = 1.5, colour = "#112446") +
+  labs(
+    x = "Year",
+    y = "Percentage",
+    title = "Share of babys dying in the first 5 years",
+    caption = "Based on Gapminder and World Bank 2019"
+  ) +
+  theme_bw()
+
+```
