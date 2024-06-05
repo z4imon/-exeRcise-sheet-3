@@ -86,3 +86,7 @@ combinedNames <- combined %>%
 knitr::kable(combinedNames, caption = "The most popular child names in 2022 and 2023")
 
 ```
+
+## Exercise 4
+### c)
+Used dataset "Global child mortality (since 1800) - based on Gapminder and World Bank (2019).csv" from https://github.com/owid/owid-datasets/blob/master/datasets/Global%20child%20mortality%20(since%201800)%20-%20based%20on%20Gapminder%20and%20World%20Bank%20(2019)/Global%20child%20mortality%20(since%201800)%20-%20based%20on%20Gapminder%20and%20World%20Bank%20(2019).csv
