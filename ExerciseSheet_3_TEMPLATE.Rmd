@@ -93,8 +93,26 @@ Used dataset "Global child mortality (since 1800) - based on Gapminder and World
 
 ### d)
 How much does the child mortality decline per year?
+
 ```{r}
 
 childMortality <- read_csv("data/Global child mortality (since 1800) - based on Gapminder and World Bank (2019).csv")
 
 ```
+
+### e)
+```{r}
+
+childMortality1800 <- childMortality %>% filter(Year == 1800)
+childMortality1800 <- childMortality1800$`Share dying in first 5 years (based on Gapminder and World Bank (2019))`
+
+childMortality2017 <- childMortality %>% filter(Year == 2017)
+childMortality2017 <- childMortality2017$`Share dying in first 5 years (based on Gapminder and World Bank (2019))`
+
+declinePerYear <- (childMortality1800 - childMortality2017) / (2017 - 1800)
+
+```
+
+The child mortality declines by 0.181520737327189 per year.
+
+
